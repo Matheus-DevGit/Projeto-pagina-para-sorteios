@@ -1,0 +1,37 @@
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: cornflowerblue;
+    color: aliceblue;
+
+}
+
+button {
+
+    border: none;
+    background-color:#51d5ec;
+    padding: 12px;
+    color: #f8feff;
+  
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 600px;
+    outline:none;
+    animation: 0.9s slideFromTop ease-in-out;
+
+}
+
+#nome {
+    
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    color: #92e4f3;
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio Aqui</title>
+    <LINK rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <script>
+
+        let pessoas = [ "Igor", "Jose", "Marcos", "Maria", "Angela"]
+
+        function sortear() {
+
+            let np = pessoas.length;
+            let ns = Math.floor(Math.random() * np);
+            document.getElementById("d").innerHTML = pessoas[ns];
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <h6 id="nome"> Sorteio Aqui</h6><br>
+
+    <h5> O nome sorteado foi:</h5>
+
+    <h1 id="d"></h1>
+
+    <button onclick="sortear()"> Click aqui para sortear </button>
+
+</body>
+</html>
